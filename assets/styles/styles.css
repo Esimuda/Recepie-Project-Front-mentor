@@ -1,0 +1,108 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Youngserif";
+}
+
+html {
+  background-color: hsl(330, 100%, 98%);
+}
+
+body {
+  box-sizing: content-box;
+  border-radius: 50px;
+  margin: 100px 200px;
+  margin-left: 600px;
+  background-color: hsl(0, 0%, 100%);
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  max-width: 500px;
+  margin-bottom: 20;
+  color: hsl(30, 10%, 34%);
+}
+
+.image {
+  max-width: 100%;
+  border-radius: 50px;
+}
+
+section {
+  margin: 20px;
+  color: hsl(30, 10%, 34%);
+}
+
+h1 {
+  margin: 20px;
+  color: hsl(24, 5%, 18%);
+}
+
+p {
+  margin: 20px;
+  font-size: 16px;
+}
+
+#paint {
+  color: hsl(30, 10%, 34%);
+}
+.prep {
+  background-color: hsl(330, 100%, 98%);
+  margin: 20px;
+  padding: 10px;
+}
+
+.ingredients {
+  color: hsl(30, 10%, 34%);
+}
+.instructions {
+  color: hsl(30, 10%, 34%);
+}
+
+h4 {
+  margin: 5px;
+  color: hsl(332, 51%, 32%);
+}
+
+h2 {
+  color: hsl(14, 45%, 36%);
+}
+
+ul {
+  margin: 5px;
+}
+
+li {
+  margin: 10px;
+  color: hsl(30, 10%, 34%);
+}
+
+ul li::marker {
+  color: hsl(14, 45%, 36%);
+}
+
+ol li::marker {
+  color: hsl(14, 45%, 36%);
+}
+
+.nutrition table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.nutrition th,
+.nutrition td {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  color: hsl(14, 45%, 36%);
+}
+
+.nutrition th {
+  color: hsl(24, 5%, 18%);
+}
+
+div {
+  padding-top: 10px;
+  padding-left: 50px;
+}
